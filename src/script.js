@@ -5,8 +5,8 @@ let alparr = alphabet.split("");
 console.log(alparr);
 
 for (let a = 0; a < alparr.length; a++) {
-    const alpha_butt = document.getElementById("alpha-butt")
-    alpha_butt.innerHTML += `<button id=${alparr[a]} class="btn btn-success"/>${alparr[a]}</button>&nbsp;`
+    const alpha_butt = document.getElementById("alpha-butt");
+    alpha_butt.innerHTML += `<button id=${alparr[a]} class="btn btn-success"/>${alparr[a]}</button>&nbsp;`;
 }
 // Init all variables
 let lives = 9;

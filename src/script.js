@@ -18,8 +18,8 @@ wrong.src = "audio/doAnHai.mp3";
 document.getElementById("lives").innerText = lives;
 
 //categories and hints
-const words = [["everton", "liverpool", "swansea", "chelsea", "hull", "manchester-city", "newcastle-united"],
-["alien", "dirty-harry", "gladiator", "finding-nemo", "jaws"],
+const words = [["everton", "liverpool", "swansea", "chelsea", "hull", "manchestercity", "newcastleunited"],
+["alien", "dirtyharry", "gladiator", "findingnemo", "jaws"],
 ["manchester", "milan", "madrid", "amsterdam", "prague"]];
 
 const hints = [

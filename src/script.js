@@ -33,19 +33,19 @@ function generate() {
     i = Math.floor(Math.random() * 3);
     if (i == 0) {
         category = "Premier League Football Teams";
-        j = Math.floor(Math.random() * 8);
+        j = Math.floor(Math.random() * 7);
         chosenword = words[i][j];
         clue = hints[i][j];
         return [chosenword, category, clue];
     } else if (i == 1) {
         category = "Films";
-        j = Math.floor(Math.random() * 6);
+        j = Math.floor(Math.random() * 5);
         chosenword = words[i][j];
         clue = hints[i][j];
         return [chosenword, category, clue];
     } else {
         category = "Cities";
-        j = Math.floor(Math.random() * 6);
+        j = Math.floor(Math.random() * 5);
         chosenword = words[i][j];
         clue = hints[i][j];
         return [chosenword, category, clue];

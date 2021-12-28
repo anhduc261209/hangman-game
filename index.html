@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="src/script.js" defer></script>
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div class="container" align="center">
+        <h2>Hangman Game created by Anh Đức</h2>
+        <p>Use the alphabet below to guess the word, or click hint to get a clue</p>
+        <div id="alpha-butt"></div>
+        <div id="category"></div>
+        <div id="wordarea"></div>
+        <div id="div-lives">You have <span id="lives"></span> lives left</div>
+        <div id="clue"></div>
+        <div id="hangman-img"></div>
+        <div id="butt">
+            <button class="btn btn-success" id="hint-butt">Hint</button>
+            <button class="btn btn-success" id="reset-butt" onclick="resetGame();">Reset Game</button>   
+        </div>
+    </div>
+</body>
+</html>

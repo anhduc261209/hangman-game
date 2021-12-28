@@ -4,8 +4,8 @@ alphabet.toUpperCase();
 let alparr = alphabet.split("");
 console.log(alparr);
 
+let alpha_butt = document.getElementById("alpha-butt");
 for (let a = 0; a < alparr.length; a++) {
-    const alpha_butt = document.getElementById("alpha-butt");
     console.log(alpha_butt.innerHTML);
     alpha_butt.innerHTML += `<button id=${alparr[a]} class="btn btn-success"/>${alparr[a]}</button>&nbsp;`;
 }

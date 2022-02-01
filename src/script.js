@@ -4,7 +4,7 @@ alphabet.toUpperCase();
 let alparr = alphabet.split("");
 console.log(alparr);
 
-function addButt() {
+window.onload = function() {
 	const alpha_butt = document.getElementById("alpha-butt");
 
 	for (let a = 0; a < alparr.length; a++) {
